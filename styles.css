@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+
+.header{
+    position: relative;
+    padding-bottom: 50px;
+}
+p{
+    color: rgb(13, 170, 157);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+
+h1 {
+    color: rgb(13, 170, 157);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing:5px;
+    font-family: "Roboto Mono";
+}
+.blue_overline_text {
+    color: blue;
+    text-decoration: overline;
+}
+#green_underline_text {
+    color: rgb(84, 226, 13);
+    text-decoration: underline;
+    font-size: 26px;
+}
+#solidWords {
+    color: rgb(1, 1, 1);
+    font-size: 26px;
+    font-family: "Roboto Mono";
+}
+
+#boldBox {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align:center;
+    padding:12px 24px;
+    letter-spacing:5px;
+    text-align:middle;
+    background: rgb(0, 0, 0); 
+    border: 1px solid #000000; 
+    margin: 12px;
+    position:absolute;top:155%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+    font-family: "Roboto Mono";
+}
+
+
+.back1 {
+    background-image: url("back1.jpeg");
+    background-color: transparent;
+    background-position: center;
+  }
+
+.parallax {
+    background-image: url("parallax1.jpeg");
+  
+    min-height: 300px;
+  
+    background-attachment: fixed;/*Creates the parallax effect by keeping the picture fixed*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+    display: flex;
+}
+
+#solidWords {
+    color: rgb(1, 1, 1);
+    font-size: 26px;
+    font-family: "Roboto Mono";
+}
+
+#seats{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align:center;
+    padding:12px 24px;
+    letter-spacing:5px;
+    text-align:middle;
+    background: rgb(0, 0, 0); 
+    border: 1px solid #000000; 
+    margin: 12px;
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+    font-family: "Roboto Mono";
+}
+
+.buttonsContainer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color:white;
+    border: 5px solid black;
+}
+
+/*
+.button11{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:14%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+.button12{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:25%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+.button13{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:36%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+.button14{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:64%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+.button15{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:75%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+.button16{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:86%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+
+.buttonRight{
+    border: none;
+    
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position:absolute;top:50%;left:75%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+}
+*/
+  
+.button:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+  
+input{
+    -webkit-appearance: none;
+    margin: 1rem auto;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #4a4948;
+    transition: background .5s;
+    outline: none;
+    cursor: pointer;
+}
+
+input::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: #c90a0a;
+    transition: left .3s;
+}
+
+input:checked::after{
+    left: 70%;
+    background-color: #136d09;
+}
